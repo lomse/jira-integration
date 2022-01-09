@@ -1,0 +1,28 @@
+{
+	"name": "jira-integration",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"start": "nodemon"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"cross-fetch": "^3.1.4",
+		"express": "^4.17.2",
+		"morgan": "^1.10.0",
+		"net": "^1.0.2"
+	},
+	"devDependencies": {
+		"@hapi/joi": "^17.1.1",
+		"@types/express": "^4.17.13",
+		"@types/hapi__joi": "^17.1.8",
+		"@types/morgan": "^1.9.3",
+		"dotenv": "^10.0.0",
+		"nodemon": "^2.0.15",
+		"tc": "^0.5.1",
+		"ts-node": "^10.4.0"
+	}
+}
